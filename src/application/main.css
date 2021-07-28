@@ -1,0 +1,93 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.fn-14{
+    -fx-font-sizes:14px;
+}
+.fn-16{
+    -fx-font-sizes:16px;
+}
+.fn-18{
+    -fx-font-sizes:18px;
+}
+.fn-24{
+    -fx-font-sizes:24px;
+}
+.fn-32{
+    -fx-font-sizes:32px;
+}
+.fn-48{
+    -fx-font-sizes:48px;
+}
+.fn-64{
+    -fx-font-sizes:64px;
+}
+.txt-center{
+    -fx-text-alignment:center;
+}
+.txt-justify{
+    -fx-text-alignment: justify;
+}
+.txt-left{
+    -fx-text-alignment:  left;
+}
+.txt-right{
+    -fx-text-alignment:right;
+}
+/*text colour*/
+.fill-light-grey{
+   -fx-fill: #ececec;
+   -fx-text-fill:#ececec;
+}
+
+.fill-grey{
+    -fx-fill: #9c9c9c;
+   -fx-text-fill:#9c9c9c;
+}
+
+.fill-dark{
+    -fx-fill: #4f5d55;
+   -fx-text-fill:#4f5d55;
+}
+
+.fill-white{
+    -fx-fill: #ffffff;
+   -fx-text-fill:#ffffff;
+}
+/*background-colour*/
+.back-white{
+    -fx-background-color:#ffffff;
+}
+.back-black{
+    -fx-background-color: #141414;
+}
+.back-light-grey{
+    -fx-background-color: #757171;
+}
+.hover-hand{
+    -fx-cursor: hand;
+}
+.border-2px{
+    -fx-border-width:2px;
+}
+.border-light-grey{
+    -fx-border-color:#ececec;
+}
+.back-lesley1{
+    -fx-background-color:#d38484;
+    }
+    .back-lesley2{
+    -fx-background-color:#d2d2d2;
+    }
+    .back-lesley3{
+    -fx-background-color:#3f0d0d;
+    }
+.back-transparent{
+     -fx-background-color:#transparent;
+     -fx-background-radius:0px;
+     
+    }

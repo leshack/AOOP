@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" fx:id="border_pane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.SupplyController">
+   <children>
+      <AnchorPane fx:id="border_pane1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="665.0" prefWidth="835.0" styleClass="back-white" stylesheets="@dashboard.css">
+         <children>
+            <VBox layoutY="-3.0" prefHeight="94.0" prefWidth="185.0" stylesheets="@dashboard.css">
+               <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                     <children>
+                        <Text fill="#0d0d0d" strokeType="OUTSIDE" strokeWidth="0.0" text="AGRICULTURE" textAlignment="CENTER" wrappingWidth="155.0">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Text>
+                        <VBox prefHeight="55.0" prefWidth="131.0" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="5.0" top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="34.0" prefWidth="175.0" style="-fx-alignment: right;" styleClass="txt-right" stylesheets="@dashboard.css" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="35.0" styleClass="back-white" stylesheets="@dashboard.css" text="13" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-right" text="Go" textAlignment="RIGHT" wrappingWidth="113.62744140625">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="5.0" top="10.0" />
+                           </HBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="-3.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+               <styleClass>
+                  <String fx:value="back-light-grey" />
+                  <String fx:value="hover-hand" />
+               </styleClass>
+            </VBox>
+            <HBox layoutX="204.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="101.0" prefWidth="195.0">
+                     <children>
+                        <VBox prefHeight="94.0" prefWidth="185.0" stylesheets="@dashboard.css">
+                           <children>
+                              <HBox alignment="TOP_CENTER" prefHeight="94.0" prefWidth="185.0" stylesheets="@dashboard.css">
+                                 <children>
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD" textAlignment="CENTER" wrappingWidth="155.0">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                    <VBox prefHeight="55.0" prefWidth="131.0">
+                                       <children>
+                                          <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                                             <VBox.margin>
+                                                <Insets left="5.0" top="30.0" />
+                                             </VBox.margin>
+                                          </HBox>
+                                          <HBox prefHeight="108.0" prefWidth="200.0" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets left="5.0" top="30.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox prefHeight="108.0" prefWidth="200.0" />
+                              <HBox prefHeight="34.0" prefWidth="175.0" style="-fx-alignment: right;" styleClass="txt-right" stylesheets="@dashboard.css" VBox.vgrow="ALWAYS">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="35.0" styleClass="back-white" stylesheets="@dashboard.css" text="14" />
+                                    <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-right" text="Go" textAlignment="RIGHT" wrappingWidth="139.62744140625">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                       <HBox.margin>
+                                          <Insets left="5.0" top="10.0" />
+                                       </HBox.margin>
+                                    </Text>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                           <VBox.margin>
+                              <Insets top="-5.0" />
+                           </VBox.margin>
+                           <styleClass>
+                              <String fx:value="back-light-grey" />
+                              <String fx:value="hover-hand" />
+                           </styleClass>
+                        </VBox>
+                        <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                           <VBox.margin>
+                              <Insets left="5.0" top="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="412.0" layoutY="4.0" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="104.0" prefWidth="173.0" stylesheets="@dashboard.css">
+                     <children>
+                        <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SECURITY" textAlignment="CENTER" wrappingWidth="155.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                              </Text>
+                              <VBox prefHeight="55.0" prefWidth="131.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                                       <VBox.margin>
+                                          <Insets left="5.0" top="30.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox prefHeight="108.0" prefWidth="200.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="5.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets top="30.0" />
+                           </padding>
+                        </HBox>
+                        <HBox prefHeight="34.0" prefWidth="175.0" style="-fx-alignment: right;" styleClass="txt-right" stylesheets="@dashboard.css" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="35.0" styleClass="back-white" stylesheets="@dashboard.css" text="15" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-right" text="Go" textAlignment="RIGHT" wrappingWidth="139.62744140625">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </HBox.margin>
+                              </Text>
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" />
+                     </HBox.margin>
+                     <styleClass>
+                        <String fx:value="back-light-grey" />
+                        <String fx:value="hover-hand" />
+                     </styleClass>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox layoutX="611.0" layoutY="4.0" prefHeight="100.0" prefWidth="175.0">
+               <children>
+                  <VBox prefHeight="102.0" prefWidth="154.0" stylesheets="@dashboard.css">
+                     <children>
+                        <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SUPPLY" textAlignment="CENTER" wrappingWidth="155.0">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </HBox.margin>
+                              </Text>
+                              <VBox prefHeight="55.0" prefWidth="131.0">
+                                 <children>
+                                    <HBox alignment="TOP_CENTER" prefHeight="108.0" prefWidth="179.0" stylesheets="@dashboard.css">
+                                       <VBox.margin>
+                                          <Insets left="5.0" top="30.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <HBox prefHeight="108.0" prefWidth="200.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="5.0" top="30.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <HBox prefHeight="108.0" prefWidth="200.0" />
+                        <HBox prefHeight="34.0" prefWidth="175.0" style="-fx-alignment: right;" styleClass="txt-right" stylesheets="@dashboard.css" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="20.0" prefWidth="35.0" styleClass="back-white" stylesheets="@dashboard.css" text="16" />
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="txt-right" text="Go" textAlignment="RIGHT" wrappingWidth="119.62744140625">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="5.0" top="10.0" />
+                                 </HBox.margin>
+                              </Text>
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="-4.0" />
+                     </padding>
+                     <styleClass>
+                        <String fx:value="back-light-grey" />
+                        <String fx:value="hover-hand" />
+                     </styleClass>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox layoutX="-2.0" layoutY="107.0" prefHeight="193.0" prefWidth="185.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS" wrappingWidth="183.763671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="10.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Text>
+                  <VBox prefHeight="64.0" prefWidth="199.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <TextField prefHeight="37.0" prefWidth="189.0" promptText="Search" />
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets bottom="5.0" left="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="113.0" prefHeight="56.0" prefWidth="189.0" styleClass="back-lesley2">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                     <stylesheets>
+                        <URL value="@main.css" />
+                        <URL value="@dashboard.css" />
+                     </stylesheets>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="100.0" prefHeight="64.0" prefWidth="199.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="164.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="20.0" layoutY="208.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="252.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="20.0" layoutY="309.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="356.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox layoutX="20.0" layoutY="413.0" prefHeight="61.0" prefWidth="189.0" styleClass="back-lesley2" stylesheets="@main.css">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS NAME">
+                           <VBox.margin>
+                              <Insets left="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="FARMERS RANDOM NO." wrappingWidth="142.13671875">
+                           <VBox.margin>
+                              <Insets left="10.0" top="5.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox layoutX="205.0" layoutY="107.0" prefHeight="555.0" prefWidth="185.0" />
+            <VBox layoutX="419.0" layoutY="107.0" prefHeight="535.0" prefWidth="189.0" />
+            <VBox layoutX="614.0" layoutY="107.0" prefHeight="535.0" prefWidth="184.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
