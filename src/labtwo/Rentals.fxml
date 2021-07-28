@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="618.0" prefWidth="600.0" style="-fx-background-color: black;" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="labtwo.RentalsController">
+    <stylesheets>
+        <URL value="@rentals.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="19.0" layoutY="146.0" prefHeight="451.0" prefWidth="553.0" style="-fx-background-color: #eacd54;">
+         <children>
+            <Label layoutX="17.0" layoutY="30.0" text="Customer:">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="17.0" layoutY="89.0" text="Genre:">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="17.0" layoutY="154.0" text="Movies:">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="17.0" layoutY="250.0" text="Borrowed:">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <Label layoutX="17.0" layoutY="345.0" text="Returned:">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Label>
+            <ChoiceBox layoutX="239.0" layoutY="30.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="239.0" layoutY="95.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="239.0" layoutY="351.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="239.0" layoutY="256.0" prefWidth="150.0" />
+            <ChoiceBox layoutX="239.0" layoutY="160.0" prefWidth="150.0" />
+            <Button layoutX="266.0" layoutY="210.0" mnemonicParsing="false" text="Save Rentrals" />
+            <Button layoutX="268.0" layoutY="302.0" mnemonicParsing="false" text="Return Movie" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="268.0" layoutY="58.0" style="-fx-background-color: #eacd54;" text="Rentals">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="652.0" prefWidth="562.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="labtwo.moviesController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="248.0" prefHeight="378.0" prefWidth="540.0" style="-fx-background-color: #eacd54;">
+         <children>
+            <ComboBox fx:id="gen" layoutX="249.0" layoutY="24.0" prefWidth="150.0" promptText="Category" />
+            <ComboBox fx:id="reg" layoutX="249.0" layoutY="232.0" onAction="#Test" prefWidth="150.0" />
+         </children></AnchorPane>
+      <Label layoutX="248.0" layoutY="63.0" prefHeight="27.0" prefWidth="59.0" style="-fx-background-color: #eacd54;" text="MOVIE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="125.0" fitWidth="500.0" layoutX="134.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pics/the-gods-must-be-crazy-movie-1941260322.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="26.0" layoutY="258.0" prefHeight="38.0" prefWidth="87.0">
+         <children>
+            <Label prefHeight="41.0" prefWidth="65.0" text="Genres:" />
+         </children>
+      </HBox>
+      <HBox layoutX="26.0" layoutY="351.0" prefHeight="46.0" prefWidth="65.0">
+         <children>
+            <Label text="Name:" />
+         </children>
+      </HBox>
+      <TextField fx:id="txt_name" layoutX="220.0" layoutY="348.0" prefHeight="26.0" prefWidth="222.0" style="-fx-background-color: WHITE;" />
+      <Button layoutX="229.0" layoutY="415.0" mnemonicParsing="false" onAction="#Save_Movies" prefHeight="32.0" prefWidth="222.0" style="-fx-background-color: black;" text="Save Movie" textFill="#eacd54" />
+      <HBox layoutX="14.0" layoutY="495.0" prefHeight="46.0" prefWidth="76.0">
+         <children>
+            <Label text="Registered:" />
+         </children>
+      </HBox>
+      <Button layoutX="239.0" layoutY="561.0" mnemonicParsing="false" onAction="#Remove_Movies" prefHeight="32.0" prefWidth="200.0" style="-fx-background-color: black;" text="Remove Movie" textFill="#eacd54" />
+   </children>
+</AnchorPane>
