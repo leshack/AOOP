@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="836.0" style="-fx-background-color: #29c292;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodyorder.AdminPanelController">
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="836.0" style="-fx-background-color: #3e3629;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="foodyorder.AdminPanelController">
    <children>
       <Label layoutX="394.0" layoutY="23.0" prefHeight="40.0" prefWidth="129.0" text="Admin" textFill="#fffdfd">
          <font>
@@ -38,15 +38,11 @@
             </Label>
          </children>
       </AnchorPane>
-      <JFXButton buttonType="RAISED" cancelButton="true" layoutX="747.0" layoutY="25.0" onAction="#exitScreen" prefHeight="38.0" prefWidth="42.0" style="-fx-background-color: red; -fx-background-radius: 150;" text="X" textFill="WHITE">
-         <font>
-            <Font name="System Bold" size="16.0" />
-         </font>
-      </JFXButton>
       <ImageView fitHeight="150.0" fitWidth="161.0" layoutX="573.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../images/img_325788.png" />
          </image>
       </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="611.0" layoutY="440.0" onAction="#Back" style="-fx-background-color: #f95539;" text="LOGOUT" textFill="WHITE" />
    </children>
 </AnchorPane>
