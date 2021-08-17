@@ -39,14 +39,22 @@ public class AdminPanelController implements Initializable {
 
     @FXML
     private JFXPasswordField passtxt;
+    public  void Back(ActionEvent event) throws IOException{
+                Stage primaryStage =new Stage();
+                primaryStage.initStyle(StageStyle.UNDECORATED);
+		Parent root =FXMLLoader.load(getClass().getResource("Login.fxml"));
+		Scene scene = new Scene(root);
+		primaryStage.setScene(scene);
+		primaryStage.show();
+                
+            // Hide this current window (if this is what you want)
+            ((Node)(event.getSource())).getScene().getWindow().hide();
+                    }
+    
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-          if(adminModel.isDbConnected()){
-             System.out.println("Db connected");
-        }else{
-             System.out.println("Db not connected");
-        }
+        
     }
     @FXML
     public void exitScreen(ActionEvent event){
