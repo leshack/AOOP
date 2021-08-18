@@ -8,10 +8,7 @@ package foodyorder;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
-/**
- *
- * @author Winston
- */
+
 public class ModelTable {
 
     
@@ -81,13 +78,6 @@ public class ModelTable {
 
     public void setAddress(String address) {
         this.address.set(address);
-    }
-    
-
-       
-    
-  
-    
-    
+    } 
 
 }

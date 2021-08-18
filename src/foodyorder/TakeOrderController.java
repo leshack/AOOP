@@ -29,11 +29,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javax.swing.SwingUtilities;
 
-/**
- * FXML Controller class
- *
- * @author Winston
- */
+
 public class TakeOrderController implements Initializable {
 
     TakeOrderModel takeOrderModel =new TakeOrderModel();

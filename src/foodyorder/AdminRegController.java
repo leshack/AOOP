@@ -25,11 +25,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-/**
- * FXML Controller class
- *
- * @author Admin
- */
+
 public class AdminRegController implements Initializable {
      AdminModel adminModel=new AdminModel();
 
