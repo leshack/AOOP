@@ -24,10 +24,7 @@ import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-/**
- *
- * @author Winston
- */
+
 public class LoginController implements Initializable {
     LoginModel loginModel =new LoginModel();
     @FXML
