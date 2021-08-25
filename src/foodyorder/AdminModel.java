@@ -13,10 +13,7 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author Winston
- */
+
 public class AdminModel {
      Connection connection;
      int aid;
